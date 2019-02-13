@@ -1,2 +1,0 @@
-// Better React Testing
-

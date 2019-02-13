@@ -1,0 +1,82 @@
+HOOKS
+
+Current State afairs
+-functional compenents- just render
+- class componenets - state/life cycle methods
+
+List 
+- useState
+-use fecct
+useContext
+useReducer
+userCallback
+useMemo
+//look at List
+
+
+Reference:
+
+
+Basics:
+- functional state for functional componenets
+- no more `this`
+smaller code generated (no babel class polyfill - look this up)
+coomposable! they're just functions
+array destructing `[value, setter]`
+reusable logic componenets
+
+High level magic
+- react knows what compnents is being rendered
+each render the hook sare calle di the same order
+react just pushes hooks onto an array
+
+const MYCoolCompnent = (props) => {
+    const [type, setType] = useState(props.initialType)
+}
+
+Limiations
+- no doncidtional hooks no `if `
+- foog guns everwhere!
+
+List
+
+useState
+-Doesn't merge like `this.setState`.
+no need for objects
+lazy initial state w/functionalReturn teh same state = Bail on update
+
+useEffect
+- use for life cycle methods
+- dont use for data loading!!!
+great for mutations, subscriptions, timers, logging, anything considerd "side effect"
+- run a after the render is committed to the screen
+IMPORAT: Runs after paint
+clean up the effect? Just return a funcgion
+Second argument determines if effect is re-run. Auto 
+
+useContext
+- no need for render prop w/ consumer
+just one context per `useContext`.
+
+useRef
+- for `refs`
+isntance variables
+- basic a place to staff something
+
+
+useLayoutEffect
+- if migrating use this one!
+Runs like compononetDidMount and componentDidupdate
+
+useImperativehandle
+- add callable methods methods to a a function compnent
+
+
+CUSTOM HOOKS!
+
+Testing:
+testHook Added
+
+
+
+
