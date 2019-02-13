@@ -1,0 +1,9 @@
+Testing:
+
+Enzyme: 
+
+Frustrations:
+- API can difficlut to reason about
+- wrapper approach can lead tounexpected test results
+- Common assertions are verbose
+- Tests can be implementation drive
