@@ -1,0 +1,53 @@
+Data Interfaces (have)
+
+1. Collections
+    - type definition
+
+
+React Data Managemnt
+
+
+Applications (have..)
+
+1. Mni Applications
+    - A master Applications
+    - Many slve Applications
+
+2. Libraries
+    - Reusable utilities for applicaitons
+
+Types of Applications
+1. Data Interfaces2. Graphical Interfaces
+
+
+What are our goals
+1. developer eperience
+    two conflicting desires:
+        1. split task among a team
+        2. Allow for full slices with relative ease (path to quick mvp)
+2. Scalability
+    1. OVer time (maintanability)
+    2. OVer processing power (Sinle user performance)
+    Over network infrastructure (multi user performance)
+
+Solutions:
+- Serialie and deserialize
+    - go vertical and then horizontal
+- Seriaazing Interfaces
+
+Bad: Organization by Technology
+- Unclear how many Technologie sare necessary for the entire system to work for a single data Collection
+- difficult to find a ll loose ends for a single data collection, spread, across many folders
+
+Good: Organization by Domain
+
+Bad: Rest
+- poorly defined Interfaces
+- hard/lengthy to build quality Interfaces
+good: graphql
+- great definition of Interfaces
+    - docs write themselves
+initial length but more features
+    - one endpoint
+    - c
+
