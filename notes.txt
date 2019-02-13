@@ -1,9 +1,46 @@
-Testing:
+Better React Testing
+
 
 Enzyme: 
-
 Frustrations:
 - API can difficlut to reason about
 - wrapper approach can lead tounexpected test results
 - Common assertions are verbose
 - Tests can be implementation drive
+
+<b>Potential Risks:</b>
+- Test app in ways different than it will be used
+- Fragile tests form testing implementation details
+    - Reacing into the clas sintance
+    - relying on nod eorder for tests- testing aginst component display names
+
+Convoluted API resulting in confusing appliatoins
+    - 58 API methods on the mount methods
+    - hoseNodes()
+    - wrapper.update()
+
+
+<b>React Testing Library (new way on testing!?!?)</b>
+
+import ract testing Library
+const
+
+getByText('Hello World')
+
+fireEvent.Change(getByLabelText('name')), { target: {value: 'John Doe'}}
+
+there are different label texts
+getBy
+getAll
+
+
+An Improved Test Experience
+    -User Driven Testing-Approachable API structure. 65% of the API revolve around variants of 8 core functions
+    - Render directly into JSDOM
+        - Encourages accessibility testing
+- Resilient to refactoring
+
+
+React 16.8  Release Post (states that it)
+
+https://testing-library.com/react
