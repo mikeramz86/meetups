@@ -9,3 +9,11 @@ Speaker of onegraph.com
 Note: research www.onegraph.com
 
 # Jason Lengstrof Gatsby: Why does Gatasby use GraphQL?
+
+mySQL: complicated access < graphQL simplifies that
+
+Gatsby uses Graphql to Query:
+- Site metadat and page info
+- the ifle system
+- 3rd party data
+- relatipnshps between data from multiple sources
